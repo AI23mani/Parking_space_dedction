@@ -1,0 +1,13 @@
+train: D:/AI COURSE TAMIL/First project/Parking Space.v4i.yolov8/train/images
+val: D:/AI COURSE TAMIL/First project/Parking Space.v4i.yolov8/valid/images
+test: D:/AI COURSE TAMIL/First project/Parking Space.v4i.yolov8/test/images
+
+nc: 2
+names: ['empty', 'occupied']
+
+roboflow:
+  workspace: muhammad-syihab-bdynf
+  project: parking-space-ipm1b
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/muhammad-syihab-bdynf/parking-space-ipm1b/dataset/4
